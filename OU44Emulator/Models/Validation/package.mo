@@ -1,4 +1,4 @@
-within OU44Emulator.SingleZone;
+within OU44Emulator.Models;
 package Validation
   extends Modelica.Icons.ExamplesPackage;
 

@@ -1,4 +1,4 @@
-within OU44Emulator.SingleZone.Data;
+within OU44Emulator.Models.Data;
 record AhuFan
   "Fan based on NK08 from NK Industri A/S (power slightly calibtrated based on measurements)"
   extends Buildings.Fluid.Movers.Data.Generic(

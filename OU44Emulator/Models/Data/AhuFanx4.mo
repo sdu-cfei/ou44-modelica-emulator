@@ -1,4 +1,4 @@
-within OU44Emulator.SingleZone.Data;
+within OU44Emulator.Models.Data;
 record AhuFanx4
   "Oversized fan to be used in AHU representing 4 actual AHUs"
   extends Buildings.Fluid.Movers.Data.Generic(

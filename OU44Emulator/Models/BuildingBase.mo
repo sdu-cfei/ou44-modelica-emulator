@@ -1008,8 +1008,6 @@ connect(matrixGain.u[1], metHeat.y)
           127}));
   connect(districtHeating.qel, Qel_pmp.u) annotation (Line(points={{-121.4,-196},
           {68,-196},{68,-108},{78,-108}}, color={0,0,127}));
-  connect(energyMeterMain.q, Qh_tot.u) annotation (Line(points={{-142.6,-170},{-148,
-          -170},{-148,-186},{-36,-186},{-36,-204},{78,-204}}, color={0,0,127}));
   connect(firstOrder.y, maxOcc.u)
     annotation (Line(points={{-171,124},{-160,124}}, color={0,0,127}));
   connect(infiltration.port_a, senTemOut.port_a)
@@ -1018,6 +1016,8 @@ connect(matrixGain.u[1], metHeat.y)
           {-18,30},{-18,49.2},{-13,49.2}}, color={0,127,255}));
   connect(energyMeterMain.port_b, jun2.port_1)
     annotation (Line(points={{-126,-160},{-126,-94}}, color={0,127,255}));
+  connect(districtHeating.qdh, Qh_tot.u) annotation (Line(points={{-121.4,-208},
+          {-24,-208},{-24,-204},{78,-204}}, color={0,0,127}));
 annotation (Icon(coordinateSystem(preserveAspectRatio=false, extent={{-240,
           -220},{240,220}}), graphics={Bitmap(
         extent={{-160,-162},{178,180}}, fileName="ou44.jpg")}),Diagram(

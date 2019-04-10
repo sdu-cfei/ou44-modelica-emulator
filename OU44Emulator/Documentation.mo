@@ -5,12 +5,12 @@ package Documentation "Documentation"
   annotation (preferredView="info",
   Documentation(info="<html>
   
-  <h1>Single-zone emulator (SDU)</h1>
+  <h3>Single-zone emulator (SDU)</h3>
     
     <p align=\"left\"><img src=\"modelica://OU44Emulator/Resources/Images/ou44.jpg\" height=\"266\" alt=\"OU44 building\"/></p>
     
     <!-- Section 1 -->
-    <h2>Building Design and Use</h2>
+    <h3>Building Design and Use</h3>
     <p>
     The overall description of the actual building can be found in the following paper:
     <a href=\"https://www.sciencedirect.com/science/article/pii/S1876610217347720\">M. Jradi et al., A World Class Energy Efficient 
@@ -19,14 +19,14 @@ package Documentation "Documentation"
     The following documentation contains only information relevant for the simplified model included in BOPTEST.
     </p>
     
-    <h3>Architecture</h3>
+    <h4>Architecture</h4>
     <p>
     The building surface area is 8500 m2. There are 3 above-ground floors containing classrooms (40% of floor area), study zones (25%), offices (15%), and common spaces (20%).
     There is also a basement level containing main HVAC facilities and the main heat exchanger connected to district heating.
     The building can accommodate around 1350 people.
     </p>
     
-    <h3>Constructions</h3>
+    <h4>Constructions</h4>
     <p>
     The building thermal envelope is comprised of three different opaque constructions: ground floor (<code>floor</code>), external wall (<code>extWall</code>), and roof (<code>roof</code>).
     The internal walls are modeled by a single-layer generic construction representing medium-weight partitions.
@@ -82,24 +82,24 @@ package Documentation "Documentation"
     </table>
     </p>
     
-    <h3>Occupancy schedules and comfort requirements</h3>
+    <h4>Occupancy schedules and comfort requirements</h4>
     <p>
     ...
     </p>
     
-    <h3>Internal loads and schedules</h3>
+    <h4>Internal loads and schedules</h4>
     <p>
     ...
     </p>
     
-    <h3>Climate</h3>
+    <h4>Climate</h4>
     <p>
     The weather data is based on Copenhagen Typical Meteorological Year. The weather file is located in <code>modelica://OU44Emulator/SingleZone/Resources/Weather/DNK_Copenhagen.061800_IWEC.mos</code>.
     </p>
     
     <!-- Section 2 -->
-    <h2>HVAC System Design</h2>   
-    <h3>Primary and secondary system designs</h3>
+    <h3>HVAC System Design</h3>   
+    <h4>Primary and secondary system designs</h4>
     The actual building is equipped with 4 balanced Air Handling Units (AHU) with heat recovery wheels and pre-heating coils (Fig. 1) and each room is equipped with radiator heating.
     The heating is provided by district heating grid. 
     Since the model is a single-zone model, all AHUs are modeled with a single AHU oversized by a factor of 4, and all radiators are modeled with a single radiator.
@@ -115,46 +115,46 @@ package Documentation "Documentation"
     ...
     </p>
     
-    <h3>Equipment specifications and performance maps</h3>
+    <h4>Equipment specifications and performance maps</h4>
     <p>
     ...
     </p>
     
-    <h3>Rule-based or local-loop controllers</h3>
+    <h4>Rule-based or local-loop controllers</h4>
     <p>
     </p>
     
     <!-- Section 3 -->
-    <h2>Additional System Design</h2>
-    <h3>Lighting</h3>
+    <h3>Additional System Design</h3>
+    <h4>Lighting</h4>
     <p>
     ...
     </p>
     
-    <h3>Shading</h3>
+    <h4>Shading</h4>
     <p>
     ...
     </p>
     
-    <h3>Onsite generation and storage</h3>
+    <h4>Onsite generation and storage</h4>
     <p>
     There is no onsite power generation or energy storage in the model.
     </p>
     
     <!-- Section 4 -->
-    <h2>Points List</h2>
-    <h3>Control input signals, descriptions, and meta-data</h3>
+    <h3>Points List</h3>
+    <h4>Control input signals, descriptions, and meta-data</h4>
     <p>
     ...
     </p>
     
-    <h3>Measurement output signals, descriptions, and meta-data</h3>
+    <h4>Measurement output signals, descriptions, and meta-data</h4>
     <p>
     ...
     </p>
     
     <!-- Section 5 -->
-    <h2>Important Model Implementation Assumption</h2>
+    <h3>Important Model Implementation Assumption</h3>
     <p>
     The major assumptions are as follows:
     <ul>
@@ -170,13 +170,13 @@ package Documentation "Documentation"
     </p>
     
     <!-- Section 6 -->
-    <h2>Scenario Information</h2>
-    <h3>Energy pricing</h3>
+    <h3>Scenario Information</h3>
+    <h4>Energy pricing</h4>
     <p>
     ...
     </p>
     
-    <h3>Emission factors</h3>
+    <h4>Emission factors</h4>
     <p>
     ...
     </p>

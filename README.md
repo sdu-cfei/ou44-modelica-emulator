@@ -9,6 +9,8 @@ are modeled with a single large volume, and all HVAC systems are serving only th
 This major simplification makes testing control optimization algorithms easier (due less control variables).
 Consequently, it will be helpful for users learning how to use BOPTEST.
 
+The model is developed in accordance with the BOPTEST [Development Document](https://github.com/ibpsa/project1-boptest/wiki).
+
 # Dependencies
 
 The model contains components from:

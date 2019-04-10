@@ -22,3 +22,7 @@ To test the model from this repository, the user is expected to have the dependi
 and loaded in Dymola.
 
 The model was developed in Dymola 2018 FD01.
+
+# Review
+
+First review: https://docs.google.com/document/d/1mOoVWCSGb48KxPXDmZaBSz5EYwecX5MHJOwSCn4k5F8/edit?usp=sharing

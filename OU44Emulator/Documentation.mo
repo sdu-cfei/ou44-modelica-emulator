@@ -94,7 +94,7 @@ package Documentation "Documentation"
     
     <h4>Climate</h4>
     <p>
-    The weather data is based on Copenhagen Typical Meteorological Year. The weather file is located in <code>modelica://OU44Emulator/SingleZone/Resources/Weather/DNK_Copenhagen.061800_IWEC.mos</code>.
+    The weather data is based on Copenhagen Typical Meteorological Year. The weather file is located in <code>modelica://OU44Emulator/Resources/Weather/DNK_Copenhagen.061800_IWEC.mos</code>.
     </p>
     
     <!-- Section 2 -->
